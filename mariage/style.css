@@ -12,6 +12,11 @@ body {
   background-color: #a5a58d; /*#6b705c;*/
   color: #ffe8d6;
   font-family: Courier;
+  background-image: url("frise.png");
+  background-position:bottom;
+  background-repeat : repeat-x;
+  background-size: 15%;
+  padding-bottom:5em;
 }
 ::-webkit-scrollbar { width: 0; }
 .crochet{
@@ -290,6 +295,4 @@ margin-bottom:70px;
   }
 }
 
-#frise {
-	background-repeat : repeat-x;
-}
+
