@@ -2,10 +2,13 @@
 
 h1{
 font-size:100px;
-font-family: Courier;
+font-family: Palatino;/*Courier;*/
 color: #ffe8d6; /*#a5a58d;*/ /*#ffe8d6*/ /*#ffe8d6*/
 text-align:center;
 margin:150px
+}
+h2 {
+	font-family :Palladio;
 }
 body {
   background-color: #a5a58d; /*#6b705c;*/
