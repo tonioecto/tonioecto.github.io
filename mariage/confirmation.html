@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mariage Antonin et Hortense</title>
+	<link href="style.css" rel="stylesheet">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onLoad='reset_onload()'>
+	
+	<div id="conteneur-page">
+     
+	<div id="wrap">
+      <ul class="navbar">
+        <li>
+          <a href="index.html">Accueil</a>
+        </li>
+        <!--<span class="crochet">;</span>-->
+        <li>
+          <a href="confirmation.html">Confirmation de venue</a>
+        </li>
+        <li>
+          <a href="logement.html">Logements</a>
+        </li>
+		<li>
+          <a href="liste_mariage.html">Liste de mariage</a>
+        </li>
+		<li>
+          <a href="covoit.html">Covoiturages</a>
+        </li>
+      </ul>
+    </div>
+	
+	<div id="enveloppe-contenu">
+	
+	<h1 id="presentation">Réponse à l'invitation</h1> <!-- &lt;Site mariage_&gt;</h1><img class="flash_1" src="essaie-curseur.png"> -->
+	<p>
+	En entrant votre nom, vous aurez accès à un formulaire pour répondre à l'ivitation. Toute personne de plus de 10 ans doit répondre individuellement au formulaire. Si vous souhaitez une invitation papier, vous pourrez le signaler dans votre réponse. </p>
+<p>
+??????????????? Ajouter question végétariens
+	</p>
+	
+	
+	
+	
+	<center>
+<form NAME = "test_form">
+          <p> Rentrer votre prénom suivi de votre nom en respectant le format suivant : Prénom Nom (les accents sont comptés) </p>
+	<INPUT TYPE = "text" VALUE = ""
+            id="name" name="name" required
+       minlength="4" size="25">
+	   
+<p>
+      <button class="button_style" type="button" onClick='verif()'>
+    Répondre à l'invitation 
+</button>
+</p>
+
+
+</form>
+</center>
+	
+	
+<input id="zone_affichage" size="100">
+
+	
+	
+	 
+   </div>
+   
+   <footer id="pied-de-page"></footer>
+ </div>
+</body>
+</html>
