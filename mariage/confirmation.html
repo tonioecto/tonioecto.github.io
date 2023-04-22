@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Mariage Antonin et Hortense</title>
 	<link href="style.css" rel="stylesheet">
+	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body onLoad='reset_onload()'>
@@ -45,13 +46,13 @@
 	
 	<center>
 <form NAME = "test_form">
-          <p> Rentrer votre prénom suivi de votre nom en respectant le format suivant : Prénom Nom (les accents sont comptés) </p>
+          <p> Rentrer votre prénom suivi de votre nom en respectant le format suivant : Prénom Nom (les accents sont comptés sauf sur les majuscules) </p>
 	<INPUT TYPE = "text" VALUE = ""
             id="name" name="name" required
-       minlength="4" size="25">
+       minlength="4" size="25" >
 	   
 <p>
-      <button class="button_style" type="button" onClick='verif()'>
+      <button class="button_style" type="button" onClick='verif()' id='mybtn'>
     Répondre à l'invitation 
 </button>
 </p>
