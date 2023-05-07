@@ -12,11 +12,11 @@ document.getElementById("name").value='' ;
 }
 
 function Redirectionformcouple(){
-  document.location.href="https://docs.google.com/forms/d/e/1FAIpQLScfcervTTaWB6bxPgJmOKlksTDz1D8_9lafktPYn5ZyxaB_xg/viewform?usp=pp_url"; 
+	window.open('https://docs.google.com/forms/d/e/1FAIpQLScfcervTTaWB6bxPgJmOKlksTDz1D8_9lafktPYn5ZyxaB_xg/viewform?usp=pp_url', '_blank');
 }
 
 function Redirectionformseul(){
-  document.location.href="https://docs.google.com/forms/d/e/1FAIpQLSenynHwbTvGGwPcCdmYhuPZ8qQe_PJhG5vKHWgDMNhJMGTsaw/viewform?usp=pp_url"; 
+	window.open('https://docs.google.com/forms/d/e/1FAIpQLSenynHwbTvGGwPcCdmYhuPZ8qQe_PJhG5vKHWgDMNhJMGTsaw/viewform?usp=pp_url', '_blank');
 }
 
 function effacer(form)

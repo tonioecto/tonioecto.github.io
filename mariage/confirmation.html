@@ -20,7 +20,7 @@
           <a href="infos.html">Programme</a>
         </li>
         <li>
-          <a href="confirmation.html">Confirmation de venue</a>
+          <a href="confirmation.html" class='active'>Confirmation de venue</a>
         </li>
         <li>
           <a href="logement.html">Logements</a>
@@ -39,9 +39,9 @@
 	<h1 id="presentation">Réponse à l'invitation</h1> 
 	<h2> Merci de répondre avant le 15 juin </h2>
 	<p>
-	En entrant votre nom, vous aurez accès à un formulaire pour répondre à l'ivitation. Toute personne de plus de 10 ans doit entrer son nom sur
-	le site pour avoir accès au formulaire adapté à sa situation. Si vous souhaitez une invitation papier, vous pourrez le signaler dans votre 
-	réponse. </p>
+	En entrant votre nom, vous aurez accès à un formulaire pour répondre à l'invitation. Toute personne de plus de 10 ans ( 
+	pour les couples, un membre suffit) doit entrer son nom sur le site pour avoir accès au formulaire adapté à sa situation. 
+	Si vous souhaitez une invitation papier, vous pourrez le signaler dans votre réponse. </p>
 	
 	<p> Rentrer votre prénom suivi de votre nom de famille en respectant le format suivant : Prénom Nom (les accents doivent être écrits sauf sur 
 	les majuscules). </p>
@@ -59,7 +59,7 @@
 <form NAME = "test_form">
 	<INPUT TYPE = "text" VALUE = ""
             id="name" name="name" required
-       minlength="4" size="25" >
+       minlength="4" size="25" placeholder='Prénom Nom'>
 	   
 <p>
       <button class="button_style" type="button" onClick='verif()' id='mybtn'>
