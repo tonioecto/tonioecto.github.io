@@ -14,7 +14,7 @@ h2 {
 	font-family :Palladio;
 	font-size:25px;
 }
-body {
+body,html {
   width: 100%;
   margin : 0;
   background-color: #a5a58d; /*vert fond*/
@@ -36,13 +36,16 @@ a {
 #conteneur-page {
     width: 100vw;
     /*min-height: 100%;*/
+	/*
 	margin-left : 0;
   margin-right : 0;
   margin-top : 0;
   margin-bottom:25px;
+  */
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: hidden;
+	padding-bottom:3em;
 }
 
 #enveloppe-contenu {
@@ -126,7 +129,7 @@ a {
   position: absolute;
   bottom: 0;
   width: 100%;
-  padding-bottom:25em; 
+/*  padding-bottom:5em; */
 }
 
 #zone_affichage {
