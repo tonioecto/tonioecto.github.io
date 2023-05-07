@@ -4,6 +4,14 @@
 	<meta charset="UTF-8">
 	<title>Mariage Antonin et Hortense</title>
 	<link href="style.css" rel="stylesheet">
+	<script type="text/javascript" src="script.js">
+	let currentURL = window.location.href;
+	document.querySelectorAll("#navbar a").forEach(p => {
+		if(currentURL.indexOf(p.getAttribute("href")) !== -1){
+		p.classList.add("active");
+	}
+	})
+</script>
 </head>
 <body>
 	
@@ -15,7 +23,7 @@
           <a href="index.html">Accueil</a>
         </li>
 		<li>
-          <a href="infos.html">Informations pratiques</a>
+          <a href="infos.html">Programme</a>
         </li>
         <li>
           <a href="confirmation.html">Confirmation de venue</a>
@@ -35,9 +43,9 @@
 	<div id="enveloppe-contenu">
 	
 	<h1 id="presentation">Mariage d'Hortense et Antonin</h1> 
-	<h2> Ce site n'est pas un code couleur </h2>
+	
 	<p>
-	Vous trouverez les informations pratiques à la page dédiée.</p>
+	Vous trouverez divers informations dans les différents onglets du site.</p>
 	<p>
 	Pour répondre à notre invitation, vous devrez vous rendre sur l'onglet "Confirmation de venue". Nous vous demandons de répondre avant le 15 juin.</p>
 	
