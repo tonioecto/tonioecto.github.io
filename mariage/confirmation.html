@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mariage Antonin et Hortense</title>
+	<link href="style.css" rel="stylesheet">
+	 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.0.0/crypto-js.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onLoad='reset_onload()'>
+	
+	<div id="conteneur-page">
+     
+	<div id="wrap">
+      <ul class="navbar">
+        <li>
+          <a href="index.html">Accueil</a>
+        </li>
+		<li>
+          <a href="infos.html">Programme</a>
+        </li>
+        <li>
+          <a href="confirmation.html" class='active'>Confirmation de venue</a>
+        </li>
+        <li>
+          <a href="logement.html">Logements</a>
+        </li>
+		<li>
+          <a href="liste_mariage.html">Liste de mariage</a>
+        </li>
+		<li>
+          <a href="covoit.html">Covoiturages</a>
+        </li>
+      </ul>
+    </div>
+	
+	<div id="enveloppe-contenu">
+	
+	<h1 id="presentation">Réponse à l'invitation</h1> 
+	<h2> Merci de répondre avant le 15 juin </h2>
+	<p>
+	Chaque invité (de plus de 10 ans, pour les couples un membre suffit) doit entrer son prénom et son nom sur ce site avant 
+	d'avoir avoir accès à un formulaire de réponse. 
+	Si vous souhaitez une invitation papier, vous pourrez le signaler dans votre réponse. </p>
+	
+	<p> Rentrez votre prénom suivi de votre nom de famille en respectant le format suivant : Prénom Nom (les accents
+	doivent être écrits sauf sur 
+	les majuscules). </p>
+	<p> Si vous rencontrez des problèmes, n'hésitez pas à nous contacter aux adresse mail suivantes ou par téléphone : 
+	<ul>
+		<li> maignehortense@gmail.com </li>
+		<li> antoninleroux@sfr.fr </li>
+	</ul>
+	</p>
+	
+	
+	
+	
+	<center>
+<form NAME = "test_form">
+	<INPUT TYPE = "text" VALUE = ""
+            id="name" name="name" required
+       minlength="4" size="25" placeholder='Prénom Nom'>
+	   
+<p>
+      <button class="button_style" type="button" onClick='verif()' id='mybtn'>
+    Répondre à l'invitation 
+</button>
+</p>
+
+
+</form>
+</center>
+	
+	
+<input id="zone_affichage" size="100">
+
+	
+	
+	 
+   </div>
+   
+   <footer id="pied-de-page"></footer>
+ </div>
+</body>
+</html>
