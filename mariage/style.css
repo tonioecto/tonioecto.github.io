@@ -189,3 +189,14 @@ a {
   border-radius: 10px;
   border: 0px solid #DDBEA9;
 }
+
+.conteneur_ter img{
+  width: 1200px;
+  height: auto;
+  margin-left: 30px;
+  margin-right: 20px;
+  float:left;
+  display: block;
+  border-radius: 10px;
+  border: 0px solid #DDBEA9;
+}
